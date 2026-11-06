@@ -51,7 +51,7 @@ The project requires:
 - Maven
 - Playwright Chromium
 
-Create a `.env` file in the project root by copying the values from `.env.example`.
+Create a `.env` file in the project root by copying the below values.
 
 Example:
 
