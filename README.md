@@ -19,7 +19,7 @@ Screenshots are automatically captured when a test fails, making it easier to in
 
 ## Project structure
 
-```text
+
 src/
 ├── main/java/org/example/
 │   ├── config/
@@ -40,7 +40,7 @@ src/
 .gitignore
 pom.xml
 README.md
-```
+
 
 ## Setup
 
