@@ -7,6 +7,7 @@ This project contains automated tests for the SauceDemo website.
 The main test checks the purchase process, from login to order confirmation. There is also a test for the locked-out user.
 
 Screenshots are automatically captured when a test fails, making it easier to investigate failures.
+
 ## Tools used
 
 - Java 21
@@ -35,7 +36,6 @@ src/
         ├── PurchaseFlowTest.java
         └── LoginTest.java
 
-.env
 .env.example
 .gitignore
 pom.xml
@@ -51,7 +51,7 @@ The project requires:
 - Maven
 - Playwright Chromium
 
-Create a `.env` file in the project root and copy the values from `.env.example`.
+Create a `.env` file in the project root by copying the values from `.env.example`.
 
 Example:
 
@@ -71,7 +71,7 @@ The `.env` file is not included in version control.
 
 ### Purchase flow
 
-The purchase test (PurchaseFlowTest) checks the following:
+The purchase test (`PurchaseFlowTest`) checks the following:
 
 1. Login with `standard_user`.
 2. Verify that the products page contains six products.
@@ -85,7 +85,7 @@ The purchase test (PurchaseFlowTest) checks the following:
 
 ### Locked-out user
 
-A separate test (LoginTest) tries to log in with `locked_out_user` and checks that the expected error message is displayed.
+A separate test (`LoginTest`) tries to log in with `locked_out_user` and checks that the expected error message is displayed.
 
 ## Running the tests
 
